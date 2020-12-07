@@ -1,0 +1,12 @@
+
+<h1>Esta es la carpeta de test</h1>
+<a routerLink="products/add"> Link agregar productos</a>
+
+<a (click)="mostrar()">Mostrar numero</a>
+<input type="text" [(ngModel)]="miNombre">
+
+<div>{{miNombre}}</div>
+
+<ul>
+    <li *ngFor="let item of miArray;">{{item}}</li>
+</ul>

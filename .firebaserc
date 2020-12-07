@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "patrones-de-diseno"
+  },
+  "targets": {
+    "patrones-de-diseno": {
+      "hosting": {
+        "TrabajoAngular": [
+          "patrones-de-diseno"
+        ]
+      }
+    }
   }
 }

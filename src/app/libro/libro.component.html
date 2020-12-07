@@ -1,0 +1,6 @@
+<ul>
+    <li *ngFor="let libro of libros"><a [routerLink]="['/libro/edit', libro.payload.doc.id]" (click)="goToEditLibro(libro.payload.doc.id)" >{{libro.payload.doc.data().autor}}</a></li>
+    
+</ul>
+
+<h2>Hola</h2>
